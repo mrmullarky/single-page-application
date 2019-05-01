@@ -2,6 +2,7 @@
 body, html{
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 body{
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -34,6 +35,12 @@ button{
 .card{
     background: #F2F2F2;
     margin: 0rem 1rem 0rem 1rem;
+}
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Start of Navigation Section */
@@ -79,11 +86,7 @@ nav ul li a:active{
 .homepage{
     margin-top: 4.8rem;
     background-image: url("img/bg-1.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 175px 0;
-
+    height:70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,6 +166,9 @@ nav ul li a:active{
 #btn-right{
     text-align: right;
 }
+.spacer{
+    margin-top: 4rem;
+}
 .big-card h3{
     text-align: center;
 }
@@ -173,12 +179,10 @@ nav ul li a:active{
 
 /* Start of Services Section */
 .our-services{
+    margin-top: 4rem;
     background-image: url("img/bg-2.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px 0;
-
+    height: 20vh;
+    padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,6 +204,9 @@ nav ul li a:active{
 .our-services p{
     font-size: 1.2rem;
 }
+.our-services-grid{
+    margin-top: 4rem;
+}
 .our-services-four h3{
     text-align: center;
 }
@@ -217,11 +224,7 @@ nav ul li a:active{
 /* Start of Survey Form Section */
 .contact{
     background-image: url("img/bg-3.jpg");
-
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 200px 0;
+    height: 75vh;
 
     display: flex;
     justify-content: center;
@@ -239,7 +242,7 @@ nav ul li a:active{
     color: black;
 }
 .contact-form h2{
-    font-size: 3rem;
+    font-size: 2.2rem;
     color: #fff;
     text-shadow: 2px 2px #000;
     margin: 0px;
