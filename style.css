@@ -24,7 +24,7 @@ button{
     border-radius: 10px;
 }
 .container{
-    max-width: 95%;
+    max-width: 75%;
     margin: auto;
 }
 .row{
@@ -45,6 +45,17 @@ button{
 img{
     max-width: 100%;
     height: auto;
+}
+#toTopButton{
+    display: block;
+    opacity: 0;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 10;
+    transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    -webkit-transition: opacity 0.3s ease;
 }
 /* Start of Navigation Section */
 nav{
